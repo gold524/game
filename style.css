@@ -1,0 +1,662 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.main{
+    height: 100%;
+    width:100%;
+    background-image: url("floor.jpg");
+}
+.loc1{
+    height: 100%;
+    width:100%;
+    background-color: white;
+    display: none;
+}
+.loc2{
+    height: 100%;
+    width:100%;
+    background-color: white;
+    display: none;
+}
+.loc3{
+    height: 100%;
+    width:100%;
+    background-color: grey;
+    display: none;
+}
+.loc4{
+    height: 100%;
+    width:100%;
+    background-color: brown;
+    display: none;
+}
+.coins{
+    width: 500px;
+    height: 200px;
+    background-image: url("coins.png");
+    background-size: 100% 100%;
+}
+.loc1-div{
+    background-image: url("math.jpg");
+    background-size: 100% 100%;
+    width: 342px;
+    height: 342px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.loc2-div{
+    background-image: url("lit.jpg");
+    background-size: 100% 100%;
+    width: 342px;
+    height: 342px;
+    position: absolute;
+    left: 0px;
+    top: 342px;
+}
+.loc3-div{
+    background-image: url("chem.jpg");
+    background-size: 100% 100%;
+    width: 342px;
+    height: 342px;
+    position: absolute;
+    left: 1017px;
+    top: 0px;
+}
+.MC-main{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background-image: url("mc.png");
+    background-size: 100% 100%;
+    left: 630px;
+    bottom: 50px;
+    transition: 1s;
+}
+.problem{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    left: 280px;
+    top: 150px;
+    text-align: center;
+    display: none;
+}
+.answer_block{
+    width: 800px;
+    height: 300px;
+    background-color: transparent;
+    position: absolute;
+    left: 280px;
+    top: 280px;
+    display: flex;
+}
+.answer1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 0px;
+    top: 0px;
+    transition: 1s;
+}
+.answer2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 300px;
+    top: 0px;
+    transition: 1s;
+}
+.answer3{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 600px;
+    top: 0px;
+    transition: 1s;
+}
+.answer4{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 0px;
+    top: 200px;
+    transition: 1s;
+}
+.answer5{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 300px;
+    top: 200px;
+    transition: 1s;
+}
+.answer6{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 600px;
+    top: 200px;
+    transition: 1s;
+}
+.safe{
+    background-image: url("loc1/safe.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.artifact1{
+    width: 200px;
+    height: 200px;
+    background-image: url(loc1/divider.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 580px;
+    top: 260px;
+    display: none;
+}
+.poem{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-color: yellow;
+    display: none;
+    right: 100px;
+    top: 100px;
+}
+.bookshelf{
+    width: 930px;
+    height: 550px;
+    position: absolute;
+    background-color: brown;
+    display: none;
+    left: 100px;
+    top: 100px;
+}
+.book1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    display: none;
+    left: 10px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: yellow;
+    display: none;
+    left: 110px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book3{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: orange;
+    display: none;
+    left: 210px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book4{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    display: none;
+    left: 310px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book5{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    display: none;
+    left: 410px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book6{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: yellow;
+    display: none;
+    left: 510px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book7{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: orange;
+    display: none;
+    left: 610px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book8{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    display: none;
+    left: 710px;
+    top: 100px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book9{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    display: none;
+    left: 10px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book10{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: purple;
+    display: none;
+    left: 110px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book11{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    display: none;
+    left: 210px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book12{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: purple;
+    display: none;
+    left: 310px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book13{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    display: none;
+    left: 410px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book14{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: purple;
+    display: none;
+    left: 510px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book15{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    display: none;
+    left: 610px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.book16{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: purple;
+    display: none;
+    left: 710px;
+    top: 350px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.artifact2{
+    width: 200px;
+    height: 200px;
+    background-image: url("loc2/scroll-unfurled.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    display: none;
+}
+.tile-box{
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    display: none;
+}
+.petri{
+    background-image: url("loc3/petri.png");
+    background-size: 100% 100%;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+.tile1{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/hydrogen.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 0px;
+    transition: 1s;
+}
+.tile2{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/oxygen.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 100px;
+    top: 0px;
+    transition: 1s;
+}
+.tile3{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/dna1.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 200px;
+    top: 0px;
+    transition: 1s;
+}
+.tile4{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/virus.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 300px;
+    top: 0px;
+    transition: 1s;
+}
+.tile5{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/hydrogen.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 100px;
+    transition: 1s;
+}
+.tile6{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/sulfur.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 100px;
+    top: 100px;
+    transition: 1s;
+}
+.tile7{
+    width:80px;
+    height: 80px;
+    background-image: url("loc3/parmecia.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 200px;
+    top: 100px;
+    transition: 1s;
+}
+.tile8{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/sulfur.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 300px;
+    top: 100px;
+    transition: 1s;
+}
+.tile9{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/copper.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 200px;
+    transition: 1s;
+}
+.tile10{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/water-drop.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 100px;
+    top: 200px;
+    transition: 1s;
+}
+.tile11{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/dna1.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 200px;
+    top: 200px;
+    transition: 1s;
+}
+.tile12{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/parmecia.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 300px;
+    top: 200px;
+    transition: 1s;
+}
+.tile13{
+    width: 80px;
+    height:80px;
+    background-image: url("loc3/virus.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 300px;
+    transition: 1s;
+}
+.tile14{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/water-drop.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 100px;
+    top: 300px;
+    transition: 1s;
+}
+.tile15{
+    width: 80px;
+    height: 80px;
+    background-image: url("loc3/oxygen.png");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 200px;
+    top: 300px;
+    transition: 1s;
+}
+.tile16{
+    width:80px;
+    height: 80px;
+    background-image: url("loc3/copper.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    left: 300px;
+    top: 300px;
+    transition: 1s;
+}
+.artifact3{
+    width: 200px;
+    height: 200px;
+    background-image: url("bubbling-flask.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 650px;
+    top: 260px;
+    display: none;
+}
+.ending-div{
+    background-image: url("secret.jpg");
+    background-size: 100% 100%;
+    width: 342px;
+    height: 342px;
+    position: absolute;
+    top: 342px;
+    left: 1017px;
+}
+.ending-door{
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    display: none;
+}
+.pied1{
+    background-color: yellow;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    display: none;
+}
+.pied2{
+    background-color: yellow;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    display: none;
+}
+.pied3{
+    background-color: yellow;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    display: none;
+}
+.art1-door{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    display: none;
+}
+.art2-door{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    display: none;
+}
+.art3-door{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    display: none;
+}
+.debug{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
